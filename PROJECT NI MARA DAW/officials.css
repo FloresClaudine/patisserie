@@ -1,0 +1,368 @@
+body {
+    background-image: url("mayorjoy\ \(Website\).png");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; 
+}
+
+body::after {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; 
+    filter: brightness(1.1) blur(20px);
+}
+header {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Keep items aligned to the left */
+    padding: 0 20px; /* Add padding for spacing */
+    height: 70px; /* Adjust as needed */
+}
+
+header img {
+    height: 200px; /* Set the logo height */
+    margin-right: 20px; /* Space between logo and navlist */
+}
+
+header .navlist {
+    display: flex; /* Arrange items horizontally */
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    margin-left: auto; /* Push the navigation list to the right */
+    gap: 50px; /* Space between menu items */
+    align-items: center; /* Ensure the navlist is vertically centered */
+    margin-top: 50px;
+    margin-right: 100px ;
+
+
+}
+
+
+header .navlist li {
+    margin: 0 10px; /* Space between menu items */
+}
+
+header .navlist a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-family: 'Poppins', sans-serif; /* Font style */
+    font-size: 20px; /* Adjust size */
+}
+header .navlist a:hover {
+    background-color: #003366; /* Background color on hover */
+    border-radius: 20px; /* Rounded corners */
+    color: #ffffff; /* Text color on hover */
+    padding: 5px 15px; /* Add padding for better spacing */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifted look */
+    text-decoration: none; /* Ensure underline is not displayed */
+}
+
+
+
+
+
+
+.name {
+    text-align: center; /* Center the text */
+    padding: 20px; /* Space around the content */
+    margin-top: 90px;
+}
+
+.name h1 {
+    font-family: 'Times New Roman', Times, serif; /* Elegant font style */
+    font-size: 70px; /* Large font size for prominence */
+    color: #ffff; /* Dark color for contrast */
+    margin: 0; /* Remove default margin */
+    text-transform: uppercase; /* Make the text uppercase */
+    margin-left: 850px;
+    margin-top: 50px;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 5px rgb(13, 13, 13); /* Shadow effect */
+}
+
+
+
+
+.title h4 {
+    font-size: 40px; /* Adjusts font size for a prominent look */
+    color: #ffff; /* Darker color for readability */
+    margin: 0; /* Removes default margin around heading */
+    font-weight: bold; /* Emphasizes the heading */
+    font-family: League Spartan;
+    margin-top: -20px;
+    margin-left: 1200px;
+}
+
+.tagline{
+    color: #ffff;
+}
+
+.tagline h5{
+    margin-left: 920px;
+    font-size: 29px;
+    font-family: Assistant;
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    
+    
+}
+
+.contact-btn {
+    background-color: #ffff; /* Blue button */
+    color: #003366;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    font-weight: bolder;
+}
+
+.contact-info {
+    display: none; /* Initially hidden */
+    background-color: #f9f9f9; /* Light gray rectangle */
+    border: 1px solid #ddd; /* Subtle border */
+    padding: 10px; /* Reduce padding */
+    border-radius: 8px; /* Same rounded corners */
+    margin-top: 5px; /* Spacing between button and contact info */
+    font-size: 14px; /* Reduce font size */
+    color: #333; /* Text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    max-width: 300px; /* Reduce the width */
+    text-align: left; /* Align the text to the left */
+}
+
+
+
+.button-container {
+    text-align: right; /* Align content (button) to the right */
+    margin-top: 20px; /* Add space above the button */
+    margin-left: 920px;
+}
+/* General container styling */
+#officials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Individual official card styling */
+.official {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.official:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Official name styling */
+.official h1 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Title styling */
+.official .title h4 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Assistant', sans-serif;
+}
+
+/* Quote styling */
+.official .tagline h5 {
+    font-size: 1em;
+    font-style: italic;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Button container styling */
+.button-container {
+    margin-top: 10px;
+}
+
+.contact-btn {
+    background-color: #ffff; /* Darker blue */
+    color: #003366;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bolder;
+}
+
+.contact-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Contact info styling */
+.contact-info {
+    display: none; /* Initially hidden */
+    background-color: #f9f9f9; /* Light gray rectangle */
+    border: 1px solid #ddd; /* Subtle border */
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px; /* Space between button and contact info */
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Styling for the contact info text */
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info p:first-child {
+    font-weight: bold; /* Highlight the email field */
+}
+
+
+
+/* Styling for the title of the officials section */
+.title-officials {
+    background-color: #003366; /* Blue background color */
+    padding: 15px 0; /* Vertical padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 30px; /* Space below the title */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    text-align: center; /* Center text horizontally */
+    margin-top: 200px;
+}
+
+.title-officials h4 {
+    color: white; /* White text color */
+    font-size: 40px; /* Slightly larger text size */
+    font-weight: bold; /* Bold text */
+    margin: 0; /* Remove default margin */
+    text-transform: uppercase;
+    font-family: League Spartan;
+}
+
+.officials-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Grid with auto columns */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 20px auto; /* Vertically center the container using `auto` */
+    position: relative; /* Add position relative to use top and bottom properties */
+    top: 50px; /* Adjust this value to move the container downward */
+    width: 700vw; /* Set a fixed width for responsiveness */
+}
+
+/* Individual official box styling */
+.official-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for official box */
+.official-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the official picture */
+.official-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.official-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styling for the official details */
+.official-details {
+    flex: 1;
+}
+
+/* Official name styling */
+.official-name h1 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Title styling */
+.official-title h4 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Assistant', sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .officials-container {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+
+    .official-box {
+        max-width: 90%;
+    }
+}

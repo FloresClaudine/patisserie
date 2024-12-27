@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Hon. Eric Z. Medina",
+        "title": "Councilor District 6",
+        "quote": "Serving the people is my top priority.",
+        "picture": "",
+        "email": "eric.medina@quezoncity.gov.ph",
+        "phone": "+63 2 1234 5678",
+        "officeAddress": "Quezon City Hall, Quezon City, Philippines"
+    },
+    {
+        "id": "2",
+        "name": "Hon. Mutya Castelo",
+        "title": "Councilor District 5",
+        "quote": "Together, we can make a difference.",
+        "picture": "https://quezoncity.gov.ph/wp-content/uploads/2020/09/Councilors-D5-06.png",
+        "email": "mutya.castelo@quezoncity.gov.ph",
+        "phone": "+63 2 2345 6789",
+        "officeAddress": "Quezon City Hall, Quezon City, Philippines"
+    },
+    {
+        "id": "3",
+        "name": "Hon. Kristine Matias",
+        "title": "Councilor District 6",
+        "quote": "Committed to building a better community.",
+        "picture": "https://quezoncity.gov.ph/wp-content/uploads/2020/09/Councilors-D6-02.png",
+        "email": "kristine.matias@quezoncity.gov.ph",
+        "phone": "+63 2 3456 7890",
+        "officeAddress": "Quezon City Hall, Quezon City, Philippines"
+    },
+    {
+        "id": "4",
+        "name": "Hon. Gian Carlo G. Sotto",
+        "title": "Vice Mayor",
+        "quote": "Leading with integrity, serving with passion.",
+        "picture": "https://quezoncity.gov.ph/wp-content/uploads/2020/09/VM-Sotto.png",
+        "email": "gian.sotto@quezoncity.gov.ph",
+        "phone": "+63 2 4567 8901",
+        "officeAddress": "Quezon City Hall, Quezon City, Philippines"
+    }
+]

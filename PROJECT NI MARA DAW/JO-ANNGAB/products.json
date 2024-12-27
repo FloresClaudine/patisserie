@@ -1,0 +1,123 @@
+[
+    {
+    
+        "id": 1,
+        "name": "Sourdough ",
+        "price": 195,
+        "image": "https://www.theseasonalhomestead.com/wp-content/uploads/2022/02/sourdough-bread.jpg"
+    },
+    
+    
+    {
+    
+        "id": 2,
+        "name": "Brioche",
+        "price": 100,
+        "image": "https://breakfast-world.com/wp-content/uploads/2021/06/Brioche-col-Tuppo-scaled.jpg"
+    },
+
+    
+    {
+    
+        "id": 3,
+        "name": "Ciabatta",
+        "price": 140,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzqCOzHXp3-tINp-GjLYrdC8XUbU7DWctvrKAp9yQK9zzjQhwgqVKLTBSgZ5VtP504hag&usqp=CAU"
+    },
+
+    {
+    
+        "id": 4,
+        "name": "Focaccia",
+        "price": 205,
+        "image": "https://www.177milkstreet.com/assets/site/Recipes/_large/Tomato-Olive-Focaccia.jpg"
+    },
+
+    {
+    
+        "id": 5,
+        "name": "Rye Bread",
+        "price": 100,
+        "image": "https://thehealthytart.com/wp-content/uploads/2016/02/Sourdough-Rye-Bread_landscape.jpg"
+    },
+
+    {
+    
+        "id": 6,
+        "name": "Challah",
+        "price": 100,
+        "image": "https://media.rnztools.nz/rnz/image/upload/s--zHqAfkAz--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1679953332/4LBSOHS_Challah_Baked_Loaf_Landscape_1_jpg?_a=BACCd2AD"
+    },
+
+    {
+    
+        "id": 7,
+        "name": "Cornbread",
+        "price": 100,
+        "image": "https://media.istockphoto.com/id/1281504853/photo/sweet-homemade-corn-bread.jpg?s=612x612&w=0&k=20&c=20r31KYwTmkYkOVFqG1E7eqVDBz1DKpCyyjeiZgh3f8="
+    },
+
+    {
+    
+        "id": 8,
+        "name": "Croissant ",
+        "price": 100,
+        "image": "https://delicedange.md/wp-content/uploads/2022/03/croasant-multicolore-scaled.jpg"
+    },
+
+    {
+    
+        "id": 9,
+        "name": "Pumpernickel",
+        "price": 100,
+        "image": "https://img.freepik.com/premium-photo/freshly-baked-pumpernickel-yummy-delicious-pastry-food-image-photography_1020697-480464.jpg"
+    },
+
+    {
+    
+        "id": 10,
+        "name": "Bagel",
+        "price": 100,
+        "image": "https://leschatsgourmets.com/wp-content/uploads/2024/07/leschatsgourmets-bagels-a-la-ricotta-citronnee-saumon-et-avocat.jpg"
+    },
+
+    {
+    
+        "id": 11,
+        "name": "Tiger Bread",
+        "price": 100,
+        "image": "https://img.freepik.com/premium-photo/freshly-baked-tiger-bread-loaf-with-crispy-golden-crust-perfect-sandwiches-toast_194143-14805.jpg"
+    },
+
+    {
+    
+        "id": 12,
+        "name": "Borodinsky ",
+        "price": 100,
+        "image": "https://st2.depositphotos.com/2793495/5937/i/450/depositphotos_59377801-stock-photo-borodino-bread-on-wooden-board.jpg"
+    },
+
+    {
+    
+        "id": 13,
+        "name": "Rúgbrauð",
+        "price": 100,
+        "image": "https://gti.images.tshiftcdn.com/3251757/x/0/geothermal-culinary-tour-from-th-2.jpg?ixlib=php-3.3.0"
+    },
+
+    {
+    
+        "id": 14,
+        "name": "Langos",
+        "price": 100,
+        "image": "https://thumbs.dreamstime.com/b/tasty-crusty-hungarian-langos-served-sour-cream-grated-cheese-ham-corn-herbs-generative-ai-tasty-crusty-277400534.jpg"
+    },
+
+    {
+    
+        "id": 15,
+        "name": "Potica",
+        "price": 100,
+        "image": "https://media.istockphoto.com/id/1473645058/photo/potica-traditional-slovenian-bread-cake-roll-with-walnut.jpg?s=612x612&w=0&k=20&c=vUuq0JaQbi47XkAUw37kdUgpCkNfiwHVu9wWWcEFcSw="
+    }
+]

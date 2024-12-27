@@ -1,0 +1,176 @@
+
+/*homepage css */
+body {
+    background: url(Programs.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; 
+}
+
+body::after {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; 
+    filter: brightness(1.1) blur(20px);
+}
+
+
+header {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Keep items aligned to the left */
+    padding: 0 20px; /* Add padding for spacing */
+    height: 70px; /* Adjust as needed */
+}
+
+header img {
+    height: 200px; /* Set the logo height */
+    margin-right: 20px; /* Space between logo and navlist */
+}
+
+header .navlist {
+    display: flex; /* Arrange items horizontally */
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    margin-left: auto; /* Push the navigation list to the right */
+    gap: 50px; /* Space between menu items */
+    align-items: center; /* Ensure the navlist is vertically centered */
+    margin-top: 50px;
+    margin-right: 100px ;
+
+
+}
+
+
+header .navlist li {
+    margin: 0 10px; /* Space between menu items */
+}
+
+header .navlist a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-family: 'Poppins', sans-serif; /* Font style */
+    font-size: 20px; /* Adjust size */
+}
+header .navlist a:hover {
+    background-color: #18437a; /* Background color on hover */
+    border-radius: 20px; /* Rounded corners */
+    color: #ffffff; /* Text color on hover */
+    padding: 5px 15px; /* Add padding for better spacing */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifted look */
+    text-decoration: none; /* Ensure underline is not displayed */
+}
+.blue-rectangle {
+    background-color: #18437a; /* Deep blue color */
+    color: #ffffff;           /* White text color */
+    text-align: center;       /* Center the text horizontally */
+    padding: 20px 0;          /* Vertical padding for spacing */
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+    width: 100%;              /* Full width of the page */
+    margin: 250px 0 20px 0;    /* Add more space at the top (50px) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-bottom: 7px solid #cd0c21;
+}
+
+.blue-rectangle h1 {
+    font-size: 100px;          /* Large font size for the heading */
+    margin: 0;                /* Remove default margins */
+    font-weight: bold;        /* Make the text bold */
+    font-family: 'League Spartan', sans-serif; /* Clean and bold font */
+    margin-top: 20px;         /* Slight spacing from the top of the rectangle */
+}
+
+
+.logo {
+    display: flex;                
+    justify-content: left;      
+}
+
+.logo img {
+    max-width: 250px;   
+    height: auto;      
+    margin-left: 90px; 
+}
+
+
+
+.blue-background {
+    background-color: #18437a;  /* Deep blue background */
+    padding: 50px 0;            /* Add padding around the section */
+    display: flex;              /* Flexbox layout for positioning */
+    flex-direction: column;     /* Stack items vertically */
+    align-items: center;        /* Center-align the items */
+    gap: 40px;                  /* Add spacing between each image box */
+    margin-top: 370px;
+}
+
+.rectangle {
+    width: 500px;                /* Set width of each rectangle */
+    height: 400px;               /* Set height of each rectangle */
+    background-color: #18437a;   /* Blue color for the rectangles */
+    border-radius: 10px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Container for the rectangles */
+.rectangle-container {
+    display: grid;               /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 6 equal columns */
+    gap: 20px;                   /* Space between the rectangles */
+    padding: 20px;               /* Padding around the container */
+    justify-content: center;     /* Center the grid horizontally */
+}
+
+/* Styling for each rectangle */
+.rectangle {
+    width: 320px;                 /* Full width of the grid cell */
+    height: 350px;               /* Set the height of the rectangle */
+    border: 3px solid white;     /* Border around the rectangle */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    display: flex;               /* Flexbox for centering content */
+    align-items: center;         /* Center content vertically */
+    justify-content: center;     /* Center content horizontally */
+    padding: 20px;               /* Padding inside the rectangle */
+    transition: all 0.3s ease;   /* Smooth transition for hover effects */
+    margin-top: 20px;            /* Space above each rectangle */
+}
+
+.rectangle:hover {
+    transform: scale(1.05);      /* Slightly enlarge the rectangle on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.rectangle img {
+    width: 100%;            /* Image takes full width of the rectangle */
+    height: 200px;          /* Fixed height for consistent image size */
+    object-fit: cover;      /* Ensures image covers the rectangle without stretching */
+    object-position: center; /* Center the image */
+    border-radius: 8px;     /* Optional: Add rounded corners to the image */
+}
+
+/* Styling for the text inside the rectangle */
+.rectangle h2 {
+    font-size: 1.5em;        /* Larger font size for the title */
+    color: white;             /* White text color */
+    margin-top: 20px;         /* Spacing between the image and text */
+    text-align: center;       /* Center the text */
+    font-family: 'Poppins', sans-serif; /* Consistent font style */
+}
+

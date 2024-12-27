@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "name": "Baguette",
+        "price": 35.00,
+        "image": "https://www.kingarthurbaking.com/sites/default/files/recipe_legacy/8-3-large.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Croissant",
+        "price": 45.00,
+        "image": "https://cdn.britannica.com/65/235965-050-A5D740E2/Croissants-jar-of-jam.jpg"
+    },
+    
+    {
+        "id": "4",
+        "name": "Sourdough",
+        "price": 60.00,
+        "image": "https://www.theseasonalhomestead.com/wp-content/uploads/2022/02/sourdough-bread.jpg"
+    }
+]

@@ -1,0 +1,279 @@
+
+/*homepage css */
+body {
+    background: url(bg-homescreen.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    height: 100vh;
+    padding: 0; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0;
+}
+
+.logo {
+    display: flex;                
+    justify-content: left;      
+}
+
+.logo img {
+    max-width: 165px;   
+    height: auto;      
+    margin-left: 90px; 
+}
+
+
+.title-horizon {
+    text-align: left; 
+    margin-top: 20px; 
+    position: relative; 
+}
+
+.title-horizon h1 {
+    font-size: 140px; 
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    letter-spacing: 7px; 
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.9); 
+    font-weight: normal; 
+    padding-top: -220px;
+    padding-left: 120px;
+}
+
+.latest-updates h2 {
+    color: white; 
+    font-size: 55px; 
+    text-align: left; 
+    font-family: 'Arvo';
+    margin-left: 10px; 
+    margin: -120px;
+    padding-left: 455px;
+    letter-spacing: 2px; 
+    font-weight: normal;
+}
+
+p {
+    font-family: Assistant; 
+    font-size: 30px; 
+    color: #ffffff; 
+    line-height: 1.6; 
+    margin: 20px 120px;
+    padding: 10px; 
+    text-align: left; 
+    font-weight: normal;
+    margin: 150px -220px; 
+    padding-left: 400px; 
+}
+
+.oval {
+    width: 200px; 
+    height: 50px; 
+    background-color: #cddef0; 
+    border-radius: 50px; 
+    margin: -150px auto; 
+    margin-left: 150px;
+    margin-top: -100px;
+}
+
+
+header {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Keep items aligned to the left */
+    padding: 0 20px; /* Add padding for spacing */
+    height: 70px; /* Adjust as needed */
+}
+
+header img {
+    height: 200px; /* Set the logo height */
+    margin-right: 20px; /* Space between logo and navlist */
+}
+
+header .navlist {
+    display: flex; /* Arrange items horizontally */
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    margin-left: auto; /* Push the navigation list to the right */
+    gap: 50px; /* Space between menu items */
+    align-items: center; /* Ensure the navlist is vertically centered */
+    margin-top: 50px;
+    margin-right: 100px ;
+
+
+}
+
+
+header .navlist li {
+    margin: 0 10px; /* Space between menu items */
+}
+
+header .navlist a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-family: 'Poppins', sans-serif; /* Font style */
+    font-size: 20px; /* Adjust size */
+}
+header .navlist a:hover {
+    background-color: #18437a; /* Background color on hover */
+    border-radius: 20px; /* Rounded corners */
+    color: #ffffff; /* Text color on hover */
+    padding: 5px 15px; /* Add padding for better spacing */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifted look */
+    text-decoration: none; /* Ensure underline is not displayed */
+}
+
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-top: 280px;
+    margin-left: 1820px;
+    cursor: pointer;
+    
+}
+
+.circle h5 {
+    margin: 0;
+    font-size: 34px; 
+    color: #333; 
+    font-family: Assistant;
+}
+
+
+footer {
+    background-color: #18437a; /* Dark background for contrast */
+    color: #f0f0f0; /* Light text for readability */
+    padding:30px 5px; /* Spacing inside the footer */
+    text-align: center;
+    margin-top: 20px;
+    height: 400px;
+}
+
+footer .contacts h1 {
+    font-size: 5rem;
+    font-family: 'League Spartan';
+    margin-bottom: 10px;
+}
+
+footer .contacts h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .hotline-icons {
+    display: flex;
+    flex-wrap: wrap; /* Ensures the layout is responsive */
+    justify-content: center; /* Centers the icons and text */
+    gap: 30px; /* Spacing between each section */
+    margin-bottom: 20px;
+}
+
+footer .contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Fixed width for consistency */
+}
+
+footer .contact-icon i {
+    font-size: 2.5rem; /* Icon size */
+    margin-bottom: 10px;
+    color: #ffff; /* Highlight color for icons */
+    height: 20px;
+}
+
+footer .contact-icon .hotline-details h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+footer .contact-icon .hotline-details p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.5;
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    color: #ffff; /* Muted text color */
+    margin-left: 440px;
+}
+
+footer i{
+    width: 30px;
+    height: auto;
+}
+
+.sticky img {
+    height: 50px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .title-horizon h1 {
+        font-size: 100px; 
+        padding-left: 80px; 
+    }
+
+    .latest-updates h2 {
+        font-size: 45px; 
+        padding-left: 250px; 
+    }
+
+    p {
+        font-size: 24px; 
+        margin: 100px 40px; 
+        padding-left: 20px; 
+    }
+
+    .oval {
+        width: 150px; 
+        height: 40px; 
+        margin: -100px auto; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-horizon h1 {
+        font-size: 80px; 
+        padding-left: 50px; 
+    }
+
+    .latest-updates h2 {
+        font-size: 35px; 
+        padding-left: 50px; 
+    }
+
+    p {
+        font-size: 20px; 
+        margin: 80px 20px; 
+        padding-left: 10px; 
+    }
+
+    .oval {
+        width: 120px; 
+        height: 30px; 
+    }
+}

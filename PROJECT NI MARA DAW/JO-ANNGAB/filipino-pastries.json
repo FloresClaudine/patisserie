@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "name": "Ensaymada",
+        "image": "https://i.ytimg.com/vi/5W9dAhs5NU8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC-2kwRR9e81yLlBwhCq_J8nEG19A",
+        "price": 45.00
+    },
+    {
+        "id": 2,
+        "name": "Ube Pandesal",
+        "image": "https://i.ytimg.com/vi/tgyq0JRbwBs/maxresdefault.jpg",
+        "price": 30.00
+    },
+    {
+        "id": 3,
+        "name": "Bibingka",
+        "image": "https://i0.wp.com/www.angsarap.net/wp-content/uploads/2020/04/Bibingka-Wide.jpg?ssl=1g",
+        "price": 50.00
+    },
+
+    {
+        "id": 4,
+        "name": "Spanish Bread",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToi_qbVDlRA2Tuw4BZgGuZAoc4FLar_9QqwQ&s",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 5,
+        "name": "Buko Pie",
+        "image": "https://i0.wp.com/www.angsarap.net/wp-content/uploads/2019/06/Buko-Pie-Wide.jpg?ssl=1",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 6,
+        "name": "Pianono",
+        "image": "https://cmsbcd.com/wp-content/uploads/2018/04/Pianono.png",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 7,
+        "name": "Asado Roll",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxHeHGakojZucEZtfJNKWHay24zIKUyzaacQ&s",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 8,
+        "name": "Siopao",
+        "image": "https://www.angsarap.net/wp-content/uploads/2012/08/siopao-asado1.jpg",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 9,
+        "name": "Monggo Loaf",
+        "image": "https://i0.wp.com/www.angsarap.net/wp-content/uploads/2020/04/Monggo-Loaf-Wide.jpg?ssl=1",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 10,
+        "name": "Banana Bread",
+        "image": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads//2020/03/sk-ultimate-banana-bread.jpg?fit=1200%2C800&ssl=1",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 11,
+        "name": "Empanada",
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/6/0/PB1008H_empanadas_s4x3.jpg.rend.hgtvcom.616.462.suffix/1628111471109.webp",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 12,
+        "name": "Egg Pie",
+        "image": "https://www.createwithnestle.ph/sites/default/files/srh_recipes/f6ec2c97face4fc765abb103caedfd1c.jpg",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 13,
+        "name": "Bicho Bicho",
+        "image": "https://www.kawalingpinoy.com/wp-content/uploads/2019/05/bicho-bicho-process-2.jpg",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 14,
+        "name": "Hopia",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNv1fTg8AVF7Xw385fVIG_xEjRIxRq0c4cw&s",
+        "price": 50.00
+    }, 
+
+    {
+        "id": 15,
+        "name": "Cheese Bread",
+        "image": "https://i.ytimg.com/vi/qVqOc9uiugY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAoQ9jNGZXFMSh5gvGhxYBSovS6Nw",
+        "price": 50.00
+    }
+]

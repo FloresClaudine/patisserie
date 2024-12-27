@@ -1,0 +1,1152 @@
+
+
+/*homepage css */
+body {
+    background: url(newsbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Keep items aligned to the left */
+    padding: 0 20px; /* Add padding for spacing */
+    height: 70px; /* Adjust as needed */
+}
+
+header img {
+    height: 200px; /* Set the logo height */
+    margin-right: 20px; /* Space between logo and navlist */
+}
+
+header .navlist {
+    display: flex; /* Arrange items horizontally */
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    margin-left: auto; /* Push the navigation list to the right */
+    gap: 50px; /* Space between menu items */
+    align-items: center; /* Ensure the navlist is vertically centered */
+    margin-top: 50px;
+    margin-right: 100px ;
+
+
+}
+
+
+header .navlist li {
+    margin: 0 10px; /* Space between menu items */
+}
+
+header .navlist a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-family: 'Poppins', sans-serif; /* Font style */
+    font-size: 20px; /* Adjust size */
+}
+header .navlist a:hover {
+    background-color: #18437a; /* Background color on hover */
+    border-radius: 20px; /* Rounded corners */
+    color: #ffffff; /* Text color on hover */
+    padding: 5px 15px; /* Add padding for better spacing */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifted look */
+    text-decoration: none; /* Ensure underline is not displayed */
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-image: url(newsbg.png);
+    background-size: 150vh;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;                
+    justify-content: left;      
+}
+.logo img {
+    max-width: 230px; /* Limits the image width to prevent it from being too large */
+    height: auto;     /* Ensures the aspect ratio is preserved */
+    margin-left: 50px; /* Adjust margin for spacing */
+}
+
+
+
+.para {
+    position: absolute;
+    clip-path: polygon(5% 5%, 95% 5%, 95% 95%, 5% 95%);
+    background-color: #cd0c21;
+    width: 600px;
+    height: 100px;
+    left: 0;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+.para2 {
+    position: absolute;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
+    background-color: #18437a;
+    width: 60vw;
+    height: 50px;
+    right: 0;
+    top: 250px;
+    display: flex;
+    align-items: center; 
+}
+
+.break {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    white-space: nowrap;
+    position: absolute;
+    right: 0; 
+    padding-right: 10px; 
+}
+
+.news {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    white-space: nowrap;
+    position: absolute;
+    left: 0; 
+    padding-left: 10px; 
+}
+
+/*END OF BREAKING NEWS*/
+
+
+/*NEWS SECTION*/
+.one {
+    height: 80vh;
+}
+/*END NEWS SECTION*/
+
+
+/*HEADLINE NEWS*/
+.headline-container { /*headline bg*/
+background-color: rgba(255, 255, 255, 0.2);
+border-top: 5px #cd0c21 solid;
+position: absolute;
+top: 13cm;
+width: 100vw;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+    
+.headline { /*headline content*/
+font-size: 18px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*HEADLINE NEWS*/
+
+
+/*CURRENT DATE*/
+.date-container { /*date pstng*/
+    justify-content: center;
+    display: flex;
+    margin-top: 8.5cm;
+    position: relative;
+}
+    
+#current-date { /*current date*/
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+/*END CURRENT DATE*/
+
+
+
+/*WEATHER SECTION*/
+
+.two {
+    height: 170vh;
+}
+
+
+/*WEATHER HEADING*/
+.weather-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    gap: 1rem;
+    width: 100%; 
+}
+
+.logo-container2 {
+    position: absolute;
+    left: 5px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.logo-container2 img {
+    max-width: 55px;
+    padding-top: 5px;
+}
+
+.weather-h {
+    font-size: 35px;
+    text-align: center; 
+    margin: 0; 
+    margin-top: -12px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #18437a;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*END WEATHER HEADING*/
+
+
+/*WEATHER DETAILS*/
+
+/*LOCATION*/
+.location-container {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.location {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #18437a;
+    border-radius: 50px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*END LOC*/
+
+
+/*TODAY WEATHER*/
+.weather-today {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+    color: white;
+    background-color: #18437a;
+    border-radius: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.weather-icon {
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+    color: white;
+}
+
+.wea-con {
+    font-size: 50px; 
+}
+
+.temp-info {
+    display: flex;
+    flex-direction: column; 
+    text-align: left; 
+}
+
+.degrees {
+    font-size: 30px; 
+    margin: 0;
+}
+
+.weather-state {
+    margin-top: 10px; 
+    font-size: 18px; 
+    text-align: center;
+    color: white;
+}
+/*END WEATHER today*/
+
+/*WEATHER DEETS*/
+.weather-details {
+    text-align: center;
+    padding: 20px; 
+    font-size: 25px;
+    color: white;
+    background-color: #133972; 
+    border-radius: 15px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 380px; 
+    margin: 20px auto; 
+}
+
+.weather-detail {
+    margin-bottom: 15px; 
+}
+
+.weather-detail h4 {
+    margin: 0; 
+    font-weight: bold; 
+}
+
+.weather-detail p {
+    margin: 0; 
+    font-size: 20px; 
+}
+/*END WEATHER DEETS*/
+
+
+/*WEEKLY WEATHER*/
+
+.weekly-weather {
+    background-color: #18437a; 
+    border-radius: 15px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    width: 90%; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    color: white;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.day-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 13%; 
+    text-align: center;
+}
+
+.day {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.degree {
+    font-size: 20px;
+}
+
+/*END WEEKLY WEATHER*/
+
+
+/*SUN DEETS*/
+.sun-riset {
+    background-color: #18437a; 
+    padding: 20px; 
+    border-radius: 15px; 
+    text-align: center; 
+    color: white; 
+    margin: 20px auto; 
+    width: 90%;
+    max-width: 1000px;
+}
+
+.sunrise, .sunset {
+    margin-bottom: 20px; 
+}
+
+.sunrise-text, .sunset-text {
+    font-size: 30px;
+    font-weight: bold; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rise-time, .set-time {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-top: -10px;
+}
+/*END OF SUN DEETS*/
+
+
+/*OTHER CONDITIONS*/
+.weather-conditions {
+    background-color: #18437a; 
+    padding: 20px; 
+    border-radius: 15px; 
+    margin: 20px auto; 
+    max-width: 380px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.pollen-container, 
+.running-container, 
+.driving-container {
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.weather-conditions h2 {
+    font-size: 20px;
+    font-weight: bold; 
+    color: white; 
+    margin: 0; 
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.weather-conditions span {
+    display: inline-block;
+    margin-left: 10px; 
+}
+/*END OTHER CONDITIONS*/
+
+
+
+/*MEDIA SECTION*/
+.three {
+    height: 150vh;
+}
+
+.news-con {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.one-box, .one-box2 {
+    background-color: white;
+    color: #333;
+    border-radius: 10px; 
+    padding: 15px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.one-box img, .one-box2 img {
+    width: 100%;
+    border-radius: 5px; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.one-box h3, .one-box2 h3 {
+    font-size: 18px; 
+    font-weight: bold; 
+    margin: 0; 
+}
+
+.one-box p, .one-box2 p {
+    font-size: 16px; 
+    margin: 0; 
+}
+
+.news-divider {
+    border: 2px solid #740d0d; 
+    margin: 20px 10px; 
+}
+
+
+.one-box:hover, .one-box2:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.containerr {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-snap-type: y mandatory;
+
+}
+
+
+body { /*bgfuckenimg*/
+    margin: 0;
+    padding: 0;
+    
+    background-image: url(newsbg.png);
+    background-size: 120vw;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+.logo-container { /*qc triangle logo*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+    
+.logo-container img { /*qc triangle logo*/
+    max-width: 150px;
+}
+
+
+/*BREAKING NEWS*/
+.para {
+    position: absolute;
+    clip-path: polygon(0% 0%, 97% 0%, 100% 100%, 0% 100%);
+    background-color: #cd0c21;
+    width: 55vw;
+    height: 50px;
+    left: 0;
+    top: 300px;
+    display: flex;
+    align-items: center; 
+}
+
+.para2 {
+    position: absolute;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
+    background-color: #18437a;
+    width: 55vw;
+    height: 50px;
+    right: 0;
+    top: 350px;
+    display: flex;
+    align-items: center; 
+}
+
+.break {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    white-space: nowrap;
+    position: absolute;
+    right: 0; 
+    padding-right: 20px; 
+}
+
+.news {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    white-space: nowrap;
+    position: absolute;
+    left: 0; 
+    padding-left: 30px; 
+}
+/*END OF BREAKING NEWS*/
+
+
+/*NEWS SECTION*/
+.one {
+    height: 55vh;
+}
+/*END NEWS SECTION*/
+
+
+/*HEADLINE NEWS*/
+.headline-container { /*headline bg*/
+background-color: rgba(255, 255, 255, 0.2);
+border-top: 5px #cd0c21 solid;
+position: absolute;
+top: 15cm;
+width: 100vw;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+    
+.headline { /*headline content*/
+font-size: 25px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*HEADLINE NEWS*/
+
+
+/*CURRENT DATE*/
+.date-container { /*date pstng*/
+    justify-content: center;
+    display: flex;
+    margin-top: 12cm;
+    position: relative;
+}
+    
+#current-date { /*current date*/
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+/*END CURRENT DATE*/
+
+
+
+/*WEATHER SECTION*/
+
+.two {
+    height: 140vh;
+    position: relative;
+}
+
+
+/*WEATHER HEADING*/
+.weather-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    gap: 1rem;
+    width: 100%; 
+}
+
+.logo-container2 {
+    position: absolute;
+    left: 100px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin-top: 45px;
+    z-index: 1;
+}
+
+.logo-container2 img {
+    max-width: 120px;
+    padding-top: 10px;
+}
+
+.weather-h {
+    font-size: 80px;
+    text-align: center; 
+    margin: 0; 
+    margin-top: -12px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #18437a;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*END WEATHER HEADING*/
+
+
+/*WEATHER DETAILS*/
+
+/*LOCATION*/
+.location-container {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.location {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #18437a;
+    border-radius: 50px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*END LOC*/
+
+
+/*TODAY WEATHER*/
+.weather-today {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+    color: white;
+    background-color: #18437a;
+    border-radius: 20px;
+    width: 26%;
+    margin: 20px auto;
+    position: relative;
+    right: 35%;
+}
+
+.weather-icon {
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+    color: white;
+}
+
+.wea-con {
+    font-size: 50px; 
+}
+
+.temp-info {
+    display: flex;
+    flex-direction: column; 
+    text-align: left; 
+}
+
+.degrees {
+    font-size: 30px; 
+    margin: 0;
+}
+
+.weather-state {
+    margin-top: 10px; 
+    font-size: 18px; 
+    text-align: center;
+    color: white;
+}
+/*END WEATHER today*/
+
+/*WEATHER DEETS*/
+.weather-details {
+    text-align: center;
+    padding: 20px; 
+    font-size: 20px;
+    color: white;
+    background-color: #133972; 
+    border-radius: 15px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 380px; 
+    margin: 20px auto; 
+    position: relative;
+    right: 35%;
+}
+
+.weather-detail {
+    margin-bottom: 15px; 
+}
+
+.weather-detail h4 {
+    margin: 0; 
+    font-weight: bold; 
+}
+
+.weather-detail p {
+    margin: 0; 
+    font-size: 20px; 
+}
+/*END WEATHER DEETS*/
+
+
+
+/*WEEKLY WEATHER*/
+.weekly-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #133972;
+    padding: 20px;
+    width: 400px;
+    color: black;
+    border-radius: 10px;
+    margin-top: -47%;
+    height: 60%;
+    position: relative;
+}
+
+.day-row {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: center;
+    justify-content: space-between; /* Distribute space evenly */
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.day {
+    font-weight: bold;
+    margin-right: 10px; /* Add space between day and icon */
+}
+
+.icon {
+    margin-right: 10px; /* Add space between icon and degree */
+}
+
+.degree {
+    font-weight: bold; /* Optional: Make temperature stand out */
+}
+/*END WEEKLY WEATHER*/
+
+
+/*SUN DEETS*/
+.sun-riset {
+    background-color: #18437a; 
+    padding: 20px; 
+    border-radius: 15px; 
+    text-align: center; 
+    color: white; 
+    margin: 20px auto; 
+    width: 50%;
+    max-width: 380px;
+    margin-top: -47%;
+    margin-right: 30px;
+}
+
+.sunrise, .sunset {
+    margin-bottom: 20px; 
+}
+
+.sunrise-text, .sunset-text {
+    font-size: 30px;
+    font-weight: bold; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rise-time, .set-time {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-top: -10px;
+}
+/*END OF SUN DEETS*/
+
+
+/*OTHER CONDITIONS*/
+.weather-conditions {
+    background-color: #18437a; 
+    padding: 30px; 
+    border-radius: 15px; 
+    max-width: 380px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-right: 2%;
+}
+
+.pollen-container, 
+.running-container, 
+.driving-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.weather-conditions h2 {
+    font-size: 25px;
+    font-weight: bold; 
+    color: white; 
+    margin: 0; 
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.weather-conditions span {
+    display: inline-block;
+    margin-left: 10px; 
+}
+/*END OTHER CONDITIONS*/
+
+
+
+/*MEDIA SECTION*/
+.three {
+    height: 160vh;
+}
+
+.news-con {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.one-box, .one-box2 {
+    background-color: white;
+    color: #333;
+    border-radius: 10px; 
+    padding: 15px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.one-box img, .one-box2 img {
+    width: 100%;
+    border-radius: 5px; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.one-box h3, .one-box2 h3 {
+    font-size: 18px; 
+    font-weight: bold; 
+    margin: 0; 
+}
+
+.one-box p, .one-box2 p {
+    font-size: 16px; 
+    margin: 0; 
+}
+
+.news-divider {
+    border: 2px solid #740d0d; 
+    margin: 20px 10px; 
+}
+
+
+.one-box:hover, .one-box2:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+}
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    
+.weather-conditions {
+      margin-top: 20px;
+      margin-right: 0; /* Remove right margin */
+      width: 90%; /* Allow content to be more flexible */
+}
+
+/*HEADLINE NEWS*/
+.headline-container { /*headline bg*/
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top: 5px #cd0c21 solid;
+    position: absolute;
+    top: 11cm;
+    width: 100vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-container2 {
+    display: none;
+}
+
+        
+.headline { /*headline content*/
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*end HEADLINE NEWS*/
+    
+    
+/*CURRENT DATE*/
+.date-container { /*date pstng*/
+    justify-content: center;
+    display: flex;
+    margin-top: 7cm;
+        position: relative;
+}
+        
+#current-date { /*current date*/
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+/*END CURRENT DATE*/
+
+
+.news-con {
+    width: 100%;
+    padding: 0 10px;
+}
+
+
+.weather-h {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.location {
+    width: 90%;
+    padding: 8px;
+    font-size: 25px;
+}
+
+.weekly-weather {
+    width: 90%; 
+    height: auto;
+    }
+
+.day-row {
+    flex-direction: column; 
+    padding: 10px;
+}
+
+.sunrise-text, .sunset-text {
+    font-size: 20px;
+    }
+
+.sun-riset {
+    width: 90%;
+}
+
+.two {
+  height: 200vh;
+}
+
+.weather-conditions {
+    width: 90%;
+    margin-right: 20px;
+    margin-bottom: 20%;
+}
+
+/*MEDIA SECTION*/
+
+.three {
+    height: 150vh;
+}
+
+.news-con {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+.one-box, .one-box2 {
+    background-color: white;
+    color: #333;
+    border-radius: 10px; 
+    padding: 15px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.one-box img, .one-box2 img {
+    width: 100%;
+    border-radius: 5px; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.one-box h3, .one-box2 h3 {
+    font-size: 18px; 
+    font-weight: bold; 
+    margin: 0; 
+}
+
+.one-box p, .one-box2 p {
+    font-size: 16px; 
+    margin: 0; 
+}
+
+.news-divider {
+    border: 2px solid #740d0d; 
+    margin: 20px 10px; 
+}
+}
+
+@media screen and (max-width: 360px) {
+
+.three {
+    height: 100vh;
+}
+
+.news-con {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    position: relative;
+    top: 200px;
+}
+
+.one-box, .one-box2 {
+    background-color: white;
+    color: #333;
+    border-radius: 10px; 
+    padding: 15px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.one-box img, .one-box2 img {
+    width: 100%;
+    border-radius: 5px; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.one-box h3, .one-box2 h3 {
+    font-size: 18px; 
+    font-weight: bold; 
+    margin: 0; 
+}
+
+.one-box p, .one-box2 p {
+    font-size: 16px; 
+    margin: 0; 
+}
+
+.news-divider {
+    border: 2px solid #740d0d; 
+    margin: 20px 10px; 
+}
+
+
+
+
+}
+
+
+
+

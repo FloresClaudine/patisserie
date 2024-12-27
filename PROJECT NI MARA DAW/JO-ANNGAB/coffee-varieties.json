@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "name": "Affogato",
+      "price": 100.00,
+      "image": "https://www.foodandwine.com/thmb/3c9F_orac_iLt7eGWo440K8s3zI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/almond-affogato-FT-RECIPE1121-0dd7cafd1e8c496097adec7470a3a064.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Americano",
+      "price": 150.00,
+      "image": "https://dolo.com.au/cdn/shop/articles/522979505-shutterstock_1973536478.jpg?v=1690528484"
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "price": 120.00,
+      "image": "https://zoomserie.at/wp-content/uploads/2024/01/capuccino.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Caramel Macchiato",
+        "price": 100.00,
+        "image": "https://www.zulaykitchen.com/cdn/shop/articles/Easy_Iced_Caramel_Macchiato_Two_Delicious_Ways_to_Satisfy_Your_Coffee_Cravings.jpg?v=1725311903"
+      },
+      {
+        "id": 5,
+        "name": "Espresso",
+        "price": 150.00,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjyHlkViXf1t9FlpAnmlozT9DZSvPbFi-Lg&s"
+      },
+      {
+        "id": 6,
+        "name": "Flat White",
+        "price": 120.00,
+        "image": "https://www.foodandwine.com/thmb/xQZv2CX6FO5331PYK7uGPF1we9Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Flat-White-FT-BLOG0523-b11f6273c2d84462954c2163d6a1076d.jpg"
+      },
+
+      {
+        "id":7,
+        "name": "Hazelnut Latte",
+        "price": 100.00,
+        "image": "https://images.ctfassets.net/v601h1fyjgba/3bxPeyxH6YlWxBUlPuCgPE/9ac292d4d71ac65d6ec53ee51f3534ab/Mocha_Hazelnut_Latte.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Iced Caramel Mocha",
+        "price": 150.00,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxlx7EtUS29K0lROKGwQ5ZVY7HkX-sAjcedr50nZZsVNLazJrgM8jABHBLCMmRpDVJTTc&usqp=CAU"
+      },
+      {
+        "id": 9,
+        "name": "Latte",
+        "price": 120.00,
+        "image": "https://coffeebros.com/cdn/shop/articles/unnamed_be2775a1-186d-40c1-b094-488fa5fa4050.png?v=1675965693"
+      },
+
+      {
+        "id": 10,
+        "name": "Matcha Espresso",
+        "price": 100.00,
+        "image": "https://cdn.sanity.io/images/f3knbc2s/production/263b575f91dfd231aa71e616c12588b3cf7bb23e-2500x1667.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Mocha",
+        "price": 150.00,
+        "image": "https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Mocha-1fc71f7.png"
+      },
+      {
+        "id": 12,
+        "name": "Pumpkin Spice Latte",
+        "price": 120.00,
+        "image": "https://img.freepik.com/premium-photo/pumpkin-spice-latte-black-background_960396-123767.jpg"
+      },
+
+      {
+        "id": 13,
+        "name": "Turkish Coffee",
+        "price": 100.00,
+        "image": "https://foolproofliving.com/wp-content/uploads/2019/03/Turkish-Coffee-Recipe-Image.jpg"
+      },
+      {
+        "id":14,
+        "name": "Vanilla Latte",
+        "price": 150.00,
+        "image": "https://media.istockphoto.com/id/1136578637/photo/hot-london-fog-tea-drink.jpg?s=612x612&w=0&k=20&c=dG_sFI9WdncHCti0CUyMHAAzAhRS-bP0jMY3PFMYx4A="
+      },
+      {
+        "id": 15,
+        "name": "Vietnamese Coffee",
+        "price": 120.00,
+        "image": "https://www.thespruceeats.com/thmb/b2_OB5pw7FF6WmodM1l_jkOyu3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vietnamese-egg-coffee-3030347-hero-01-9897b12116fc4439b415c63110aa90e6.jpg"
+      }
+
+  ]
+
+  
+  

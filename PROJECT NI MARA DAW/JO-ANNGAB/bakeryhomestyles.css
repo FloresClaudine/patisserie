@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240415/pngtree-mix-baked-bread-and-wheat-on-wood-table-background-image_15658741.jpg'); /* Add your background image */
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+  .container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+  }
+
+  nav {
+    position: sticky; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+
+  }
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align the items to the right */
+    margin-top: 30px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 24px;
+
+    
+
+  }
+
+
+.navbar a {
+    text-decoration: none; 
+    color: #f7e9d7; 
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px; 
+    margin-right: 80px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-radius 0.2s ease;
+    text-align: center;
+
+  }
+
+
+.navbar a:hover {
+    background-color: #463123; 
+    border-radius: 20px;
+    padding: 10px 18px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+
+
+  }
+
+  .menu-icons {
+    display: flex;
+    align-items: center;
+    color: #f7e9d7; 
+   
+  }
+.menu-icons i {
+    font-size: 1.6rem; 
+    margin-right: 8px; 
+    color: #caaa94; 
+    transition: color 0.3s ease;
+    
+}
+
+.menu-icons i:hover {
+    color: #d7c4b3; 
+}
+
+
+
+.titlehome h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 6em; 
+    font-weight: 700; 
+    color: #d7c4b3; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    margin-left: 100px;
+    margin-top: 180px;
+    padding-right: 50px;  /* Space between title and cart square */
+
+}
+
+.captions{
+    margin-left:  100px;
+}
+
+.captions p {
+    font-family: 'Georgia', serif; 
+    font-size: 1.5em; 
+    color: #d7c4b3; 
+    line-height: 1.5; 
+    font-style: italic; 
+    margin: 0; 
+    
+}
+
+.buy-button {
+    text-align: left; 
+    margin-top: 30px; 
+    margin-left: 100px;
+}
+
+.buy-button button {
+    background-color: #4d3626; 
+    color: #d7c4b3; 
+    font-size: 1.2em; 
+    padding: 15px 30px; 
+    border: none; 
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none; /* Remove underline */
+
+
+}
+
+.buy-button button:hover {
+    background-color: #d7c4b3; 
+    color: #4d3626;
+    transform: scale(1.05); 
+}
+
+.buy-button button:active {
+    background-color: #4b3832; 
+    transform: scale(1); 
+}
+
+
+.navbar span {
+    display: inline-flex; /* Use flex for better alignment */
+    width: 30px;
+    height: 30px;
+    background-color: #4d3626; 
+    color: white;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 50%; 
+    margin-right: 40px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    position: relative; 
+    top: 10px;
+    right: 17px;
+}
+
+.cartTab{
+    width: 400px;
+    background-color: #463123;
+    color: #d7c4b3;
+    position: fixed;
+   inset: 120px -400px 0 auto;
+   display: grid;
+   grid-template-rows: 70px 1fr 70px;
+   border-radius: 4px;
+   transition: .5s;
+
+}
+
+body.showCart .cartTab{
+    inset: 120px 0 0 auto;
+
+}
+
+body.showCart .container{
+    transform: translateX(-250px);
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button{
+    background-color: #d7c4b3;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.cartTab .btn .close{
+    background-color: #fff;
+}
+
+
+.cartTab .listCart .item img{
+    width: 100%;
+}
+
+
+.cartTab .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    margin-left: 10px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listCart .quantity span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #caaa94;
+    color: #463123;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bolder;
+ 
+}
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #ffff;
+}
+
+.listCart.item:nth-child(even){
+    background-color: #f7e9d7;
+}
+.listCart{
+    overflow: auto;
+}
+
+.listCart ::-webkit-scrollbar{
+width: 0;
+}
+
+

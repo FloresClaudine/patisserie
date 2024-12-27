@@ -1,0 +1,421 @@
+body {
+    background-image: url('bge.png'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;               
+    margin: 0;                   
+    font-family: Arial, sans-serif; 
+}
+
+header .navlist {
+    display: flex; /* Arrange items horizontally */
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    margin-left: auto; /* Push the navigation list to the right */
+    gap: 50px; /* Space between menu items */
+    align-items: center; /* Ensure the navlist is vertically centered */
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Keep items aligned to the left */
+    padding: 0 20px; /* Add padding for spacing */
+    height: 70px; /* Adjust as needed */
+}
+
+header img {
+    height: 200px; /* Set the logo height */
+    margin-right: 20px; /* Space between logo and navlist */
+}
+
+header .navlist li {
+    margin: 0 10px; /* Space between menu items */
+}
+
+header .navlist a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-family: 'Poppins', sans-serif; /* Font style */
+    font-size: 20px; /* Adjust size */
+}
+
+header .navlist a:hover {
+    background-color: #18437a; /* Background color on hover */
+    border-radius: 20px; /* Rounded corners */
+    color: #ffffff; /* Text color on hover */
+    padding: 5px 15px; /* Add padding for better spacing */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for a lifted look */
+    text-decoration: none; /* Ensure underline is not displayed */
+}
+
+/* Logo container */
+.logo {
+    display: flex;             /* Center the image horizontally */
+    justify-content: left;     /* Align items to the left */
+    align-items: center;       /* Align items in the center vertically */
+    height: 150px;             /* Set a height for the logo container */
+    padding: 10px;             /* Optional: add some padding around the image */
+    position: relative;        /* Enable positioning */
+    margin-left: 100px;         /* Move logo to the right */
+}
+
+/* Logo image */
+.logo img {
+    max-width: 100%;        /* Make sure the image is responsive */
+    height: auto;           /* Maintain the image's aspect ratio */
+    max-height: 150px;      /* Optional: limit the max height of the logo */
+}
+
+/* Red Rectangle Banner */
+.announcement-banner {
+    background-color: #cd0c21;  /* Red background color */
+    color: white;               /* White text color */
+    text-align: center;         /* Center the text */
+    padding: 10px;              /* Padding around the text */
+    font-size: 24px;            /* Font size for the text */
+    font-weight: bold;          /* Make the text bold */
+    letter-spacing: 2px;        /* Slight letter spacing for effect */
+    text-transform: uppercase;  /* Uppercase text */
+    width: 500px;               /* Fixed width */
+    box-sizing: border-box;     /* Include padding in width */
+    margin-top: 30px;           /* Space from any content above */
+    margin-left: 130px;         /* Move banner to the right */
+}
+
+.announcement-banner h4 {
+    margin: 0;                  /* Remove default margin from h4 */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for text */
+}
+
+/* Blue Rectangle Banner */
+.date-banner {
+    background-color: #18437a;  /* Blue background color */
+    color: white;                /* White text color */
+    text-align: center;          /* Center the text */
+    padding: 10px;               /* Padding around the text */
+    font-size: 24px;             /* Font size for the text */
+    font-weight: bold;           /* Make the text bold */
+    letter-spacing: 2px;         /* Slight letter spacing */
+    text-transform: uppercase;   /* Uppercase text */
+    width: 270px;                /* Fixed width */
+    box-sizing: border-box;      /* Include padding in width */
+    margin-top: 30px;            /* Space from any content above */
+    margin-left: -30px;
+}
+
+.date-banner h4 {
+    margin: 0;                   /* Remove default margin from h4 */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for text */
+}
+
+/* Container for both banners */
+.announcement-container {
+    display: flex;               /* Use flexbox to align both banners side by side */
+    gap: 20px;                   /* Space between the two banners */
+}
+
+
+/* Style for the Traffic Advisory title */
+.traffic-advisory-title {
+    text-align: left;         /* Center the title */
+    font-size: 80px;            /* Large font size */
+    font-weight: bold;          /* Bold text */
+    color: #ffff;                /* Dark text color */
+    text-transform: capitalize;  /* Uppercase text */
+    margin-top: 30px;           /* Space above the title */
+    letter-spacing: 2px;        /* Slight letter spacing */
+    font-family: Lexend Deca;
+    margin-left: 150px;
+}
+
+.line {
+    border-bottom: 4px solid #cd0c21; /* Red line under the title */
+    width: 900px;                       /* Set width of the line to 50% of the parent container */
+    margin-top: -40px;                /* Move the line upward by reducing the space above */
+    margin-bottom: 0;                 /* Remove margin below the line */
+    margin-left: 150px;
+}
+
+.traffic-advisory-text {
+    font-size: 40px;  /* Adjust the font size */
+    line-height: 1.6;  /* Set line spacing for readability */
+    color: #ffff;  /* Dark text color */
+    margin-top: 20px;  /* Space above the paragraph */
+    margin-bottom: 20px;  /* Space below the paragraph */
+    text-align: left;  /* Center-align the paragraph */
+    font-family: Assistant;  /* Use a clean font */
+    margin-left: 150px;
+}
+
+
+.announcement-title {
+    font-family: 'League Spartan';  /* Example font, you can change it */
+    font-size: 70px;                     /* Larger font size */
+    font-weight: 800;                    /* Bold text */
+    color: #18437a;                      /* Red color */
+    text-align: left;                  /* Center the text */
+    margin-top: 50px;                    /* Space above the title */
+    margin-bottom: 20px;                 /* Space below the title */
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.blue-line {
+    border-bottom: 4px solid black; /* Blue line */
+    width: 95%;  
+    margin-left: 95px;              
+    margin-top: -20px      
+}
+
+.view-more-container {
+    text-align: right; /* Aligns the button to the right */
+    margin-top: -40px;
+}
+
+.view-more-button {
+    background-color: #ffff; /* Blue background for the button */
+    color: #18437a;               /* White text */
+    padding: 10px 20px;         /* Padding inside the button */
+    text-decoration: none;      /* Removes underline */
+    font-size: 16px;            /* Font size */
+    border-radius: 5px;         /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-right: 10px;
+    border: 2px solid #0056b3;
+}
+
+.view-more-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #ffff;
+}
+
+/* Container for the rectangles */
+.rectangles {
+    display: flex;
+    margin-top: 30px; /* Space above the rectangles */
+    gap: 40px; /* Reduced space between the rectangles */
+    
+}
+
+/* Style for individual rectangles */
+.rectangle {
+    width: 290px; /* Adjust width */
+    height: 490px; /* Adjust height */
+    background-color: #ffffff; /* White background */
+    border: 1px solid black; /* Blue border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    margin-left: 350px; /* Custom margin */
+    padding: 20px; /* Padding for inner spacing */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    margin-top: 20px;
+    
+}
+.rectangle h3 {
+    font-family: Lexend Deca; /* Clean font for title */
+    font-size: 24px; /* Title font size */
+    color: #18437a; /* Title color */
+    text-align: left; /* Align the title text to the left */
+    margin-top: 20px; /* Reduce vertical spacing */
+    margin-bottom: 10px; /* Adjust space below */
+    margin-left: -90px; /* Add space from the left edge */
+    font-weight: normal;
+}
+
+.traffic-advisory-line {
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    font-size: 20px; /* Adjust text size */
+    line-height: 1.6; /* Line spacing for readability */
+    color: #555; /* Subtle dark gray text */
+    margin-top: -210px; /* Negative margin to move text upward */
+    text-align: left; /* Align the text to the left */
+    padding: 0 15px; /* Horizontal padding for neatness */
+    padding-left: 400px; /* Keeps the text aligned horizontally */
+    margin-left: -30px; /* Add space from the left edge */
+    padding-top: -20px;
+
+}
+
+.fa-regular.fa-calendar {
+    font-size: 30px; /* Adjust the icon size */
+    color: #18437a; /* Icon color */
+    margin-top: 20px; /* Space above the icon */
+    margin-left: 370px; /* Align icon horizontally with content */
+    display: block; /* Ensure it behaves like a block for layout purposes */
+    text-align: left; /* Align the icon to the left */
+    font-weight: normal;
+}
+
+
+.rectangle img {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+.calendar-container {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically center the items */
+    gap: 10px; /* Space between the icon and the text */
+}
+
+/* Style for the date text */
+.date-calendar {
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    font-size: 18px; /* Adjust text size */
+    color: #333; /* Text color */
+    margin-left: 405px; /* Remove default margin */
+    margin-top: -23px;
+    font-weight: bolder;
+}
+
+.rectangle h4 {
+    font-family: Lexend Deca; /* Clean font for title */
+    font-size: 24px; /* Title font size */
+    color: #18437a; /* Title color */
+    text-align: left; /* Align the title text to the left */
+    margin-top: 20px; /* Reduce vertical spacing */
+    margin-bottom: 10px; /* Adjust space below */
+    margin-left: -60px; /* Add space from the left edge */
+    font-weight: normal;
+}
+
+.traffic-advisory-linesecond {
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    font-size: 20px; /* Adjust text size */
+    line-height: 1.6; /* Line spacing for readability */
+    color: #555; /* Subtle dark gray text */
+    margin-top: -150px; /* Negative margin to move text upward */
+    text-align: left; /* Align the text to the left */
+    padding: 0 15px; /* Horizontal padding for neatness */
+    padding-left: 400px; /* Keeps the text aligned horizontally */
+    margin-left: 405px; /* Add space from the left edge */
+    padding-top: -20px;
+
+}
+
+/* Style for the second calendar icon */
+.calendar-container .second-calendar {
+    font-size: 30px; /* Adjust size of the calendar icon */
+    color: #18437a; /* Customize the color */
+    margin-left: 805px;
+}
+
+/* Style for the date below the second calendar */
+
+
+.date-calendar.second-date {
+  margin-left: 840px;
+  margin-top: -20px;
+
+}
+
+.rectangle h5 {
+    font-family: Lexend Deca; /* Clean font for title */
+    font-size: 20px; /* Title font size */
+    color: #18437a; /* Title color */
+    text-align: left; /* Align the title text to the left */
+    margin-top: 40px; /* Reduce vertical spacing */
+    margin-bottom: 10px; /* Adjust space below */
+    margin-left: -10px; /* Add space from the left edge */
+    font-weight: normal;
+}
+
+.traffic-advisory-linethird {
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    font-size: 20px; /* Adjust text size */
+    line-height: 1.6; /* Line spacing for readability */
+    color: #555; /* Subtle dark gray text */
+    margin-top: -150px; /* Negative margin to move text upward */
+    text-align: left; /* Align the text to the left */
+    padding: 0 15px; /* Horizontal padding for neatness */
+    padding-left: 400px; /* Keeps the text aligned horizontally */
+    margin-left: 830px; /* Add space from the left edge */
+    padding-top: -30px;
+
+}
+
+.calendar-container .third-calendar {
+    font-size: 30px; /* Adjust size of the calendar icon */
+    color: #18437a; /* Customize the color */
+    margin-left: 1230px;
+}
+
+
+.date-calendar.third-date {
+    margin-left: 1265px;
+    margin-top: -20px;
+  
+  }
+
+  .featured-stories {
+    font-family: 'League Spartan';  /* Example font, you can change it */
+    font-size: 70px;                     /* Larger font size */
+    font-weight: 800;                    /* Bold text */
+    color: #18437a;                      /* Red color */
+    text-align: left;                  /* Center the text */
+    margin-top: 50px;                    /* Space above the title */
+    margin-bottom: 20px;                 /* Space below the title */
+    margin-top: 135px;
+    margin-left: 100px;
+}
+
+
+.rectangle .featured-one {
+    font-family: Lexend Deca; /* Clean font for title */
+    font-size: 24px; /* Title font size */
+    color: #18437a; /* Title color */
+    text-align: left; /* Align the title text to the left */
+    margin-top: 40px; /* Reduce vertical spacing */
+    margin-bottom: 10px; /* Adjust space below */
+    margin-left: -10px; /* Add space from the left edge */
+    font-weight: normal;
+}
+
+.rectangle .featured-two {
+    font-family: Lexend Deca; /* Clean font for title */
+    font-size: 23px; /* Title font size */
+    color: #18437a; /* Title color */
+    text-align: left; /* Align the title text to the left */
+    margin-top: 40px; /* Reduce vertical spacing */
+    margin-bottom: 10px; /* Adjust space below */
+    margin-left: -20px; /* Add space from the left edge */
+    font-weight: normal;
+}
+
+
+
+.rectangle .featured-three {
+    font-family: Lexend Deca; /* Clean font for title */
+    font-size: 22px; /* Title font size */
+    color: #18437a; /* Title color */
+    text-align: left; /* Align the title text to the left */
+    margin-top: 40px; /* Reduce vertical spacing */
+    margin-bottom: 10px; /* Adjust space below */
+    margin-left: -50px; /* Add space from the left edge */
+    font-weight: normal;
+}
+
+
+.spotlights {
+    font-family: 'League Spartan';  /* Example font, you can change it */
+    font-size: 70px;                     /* Larger font size */
+    font-weight: 800;                    /* Bold text */
+    color: #18437a;                      /* Red color */
+    text-align: left;                  /* Center the text */
+    margin-top: 50px;                    /* Space above the title */
+    margin-bottom: 20px;                 /* Space below the title */
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+
